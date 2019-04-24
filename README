@@ -10,9 +10,7 @@ LANGUAGE : JAVA
 
 Input is stored inside input.txt.Program will call this text file during execution.
 
-Input.txt is a follows
-
-Input:
+Input.txt is as follows:
 
 glob is I
 prok is V
