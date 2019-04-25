@@ -1,16 +1,15 @@
 # GMT
 Implementation of Galaxy Merchant Trading using Java
 
-
-Programflow.docx:-
-this file will help to visualise  how the program flows.
-
 ENVIRONMENT : DRJAVA
 LANGUAGE : JAVA
 
-Input is stored inside input.txt.Program will call this text file during execution.
+Programflow.docx:-
+this file will help to visualise  how the program flows.
+Assumption.txt:-
+List of assumption made
 
-Input.txt is as follows:
+Input.txt ( will be call during program execution) is as follows:
 
 glob is I
 prok is V
