@@ -29,7 +29,7 @@ public class InputProcess{
 public static void ReadFile(String filePath) throws IOException {
   BufferedReader bufferedReader = null;
   if (filePath == null){
-   InputStream in = InputProcess.class.getResourceAsStream("input2.txt");
+   InputStream in = InputProcess.class.getResourceAsStream("input.txt");
    bufferedReader =new BufferedReader(new InputStreamReader(in));
   }
   else{
