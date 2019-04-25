@@ -1,0 +1,7 @@
+Assumptions:
+
+1. Input is assumed to have ?, is and credits so three conditions is apply.
+2. input is also assume to start with how much and how many.
+3. Input can be in upper and lower cases thus both will be valid.
+4. Input is executed line by line.
+4. Roman symbols is in capital letters
