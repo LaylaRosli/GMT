@@ -37,10 +37,10 @@ public class OutputProcess extends InputProcess{
    }
    float value = new RomanToDecimal().romanToDecimal(GalacticValueToRoman.toString());
    GalacticValue.add("is");GalacticValue.add(Float.toString(value));
-   System.out.println(/*query+*/" "+outputFormatter(GalacticValue));
+   System.out.println(outputFormatter(GalacticValue));
   }
   else{
-   System.err.println(/*query+*/" I have no idea what you are talking about");
+   System.err.println(" I have no idea what you are talking about");
   }
  }
  /*
@@ -65,10 +65,10 @@ public class OutputProcess extends InputProcess{
    }
    float elementValue = (new RomanToDecimal().romanToDecimal(tokenValueToRoman.toString()) * raremetalValueList.get(element));
    tokenValue.add("is");tokenValue.add(Float.toString(elementValue));tokenValue.add("Credits");
-   System.out.println(/*query+*/" "+outputFormatter(tokenValue));
+   System.out.println(outputFormatter(tokenValue));
   }
   else{
-   System.err.println(/*query+*/"  I have no idea what you are talking about");
+   System.err.println("I have no idea what you are talking about");
   }
  }
 
